@@ -32,24 +32,7 @@ Responsive layout for different screen sizes
 🛠️ Technologies Used
 Flutter
 Dart
-📂 Project Structure
-lib/
-├── data/
-│   └── dummy_books.dart
-│
-├── models/
-│   └── book_model.dart
-│
-├── screens/
-│   ├── splash_screen.dart
-│   ├── home_screen.dart
-│   ├── search_screen.dart
-│   └── book_details_screen.dart
-│
-├── widgets/
-│   └── book_card.dart
-│
-└── main.dart
+
 📦 Data Source
 
 This project uses Dummy Data stored locally inside the application.
