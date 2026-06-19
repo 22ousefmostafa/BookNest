@@ -6,6 +6,13 @@ class BookListViewModel {
 
   List<Book> search(String query) {
     final q = query.toLowerCase();
-    return books.where((b) => b.title.toLowerCase().contains(q) || b.author.toLowerCase().contains(q)).toList();
+    return books
+        .where(
+          (b) =>
+              b.title.toLowerCase().contains(q) ||
+              b.author.toLowerCase().contains(q),
+        )
+        .toList();
   }
 }
+

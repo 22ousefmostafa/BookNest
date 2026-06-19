@@ -7,7 +7,7 @@
 
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:task/main.dart';
+import 'package:booknest/main.dart';
 
 void main() {
   testWidgets('App shows BookNest splash', (WidgetTester tester) async {

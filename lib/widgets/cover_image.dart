@@ -5,11 +5,17 @@ class CoverImage extends StatelessWidget {
   final double width;
   final double height;
 
-  const CoverImage({super.key, required this.assetPath, this.width = 80, this.height = 120});
+  const CoverImage({
+    super.key,
+    required this.assetPath,
+    this.width = 80,
+    this.height = 120,
+  });
 
   @override
   Widget build(BuildContext context) {
-    final normalizedPath = assetPath.startsWith('assets/') ? assetPath : 'assets/$assetPath';
+    final normalizedPath =
+        assetPath.startsWith('assets/') ? assetPath : 'assets/$assetPath';
 
     return Image.asset(
       normalizedPath,
@@ -27,3 +33,4 @@ class CoverImage extends StatelessWidget {
     );
   }
 }
+

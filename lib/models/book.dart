@@ -15,3 +15,4 @@ class Book {
     required this.rating,
   });
 }
+
